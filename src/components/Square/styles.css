@@ -1,0 +1,46 @@
+.square {
+    --margin: 14px;
+    --dimension: 60px;
+}
+
+.square {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--main-bg-color);
+    border: 3px solid #FFFFFF;
+    color: white;
+    box-sizing: border-box;
+    border-radius: 18px;
+    float: left;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 34px;
+    margin-right: var(--margin);
+    margin-top: var(--margin);
+    padding: 0;
+    text-align: center;
+    width: var(--dimension);
+    height: var(--dimension);
+}
+
+@media screen and (min-width: 481px) {
+    .square {
+        --margin: 20px;
+        --dimension: 70px;
+        border-radius: 22px;
+        border-width: 5px;
+    }
+}
+
+.is-winner {
+    background: #0336FF;
+}
+
+.square:focus {
+    outline: none;
+}
+
+.kbd-navigation .square:focus {
+    background: #ddd;
+}

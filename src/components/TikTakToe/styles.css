@@ -1,0 +1,14 @@
+body {
+    height: 100vh;
+}
+
+.game {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.game-board {
+    margin-left: 20px;
+}

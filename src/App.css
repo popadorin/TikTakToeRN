@@ -1,0 +1,22 @@
+:root {
+  --main-bg-color: #FF0266;
+}
+
+.App {
+  text-align: center;
+  background-color: var(--main-bg-color);
+  position: relative;
+}
+
+.App-logo {
+  position: absolute;
+  left: 20px;
+  top: 20px;
+}
+
+@media screen and (min-width: 481px) {
+  .App-logo {
+    left: 75px;
+    top: 63px;
+  }
+}
