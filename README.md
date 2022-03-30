@@ -16,3 +16,6 @@ This project was bootstrapped with [React-Native cli](https://github.com/faceboo
 2. `cd ios` && `pod install` (only for ios)
 3. `yarn ios` (to run ios)
 4. `yarn android` (to run android)
+
+
+__NOTE__: In order to run a new game - press twice R on android emulator or CMD + R on ios emulator.
